@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Example of transitions */
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+/* Example of animations */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-animation {
+    animation: slideIn 1s ease;
+}
+
+/* Additional custom styles */
+.hero {
+    background-image: url('hero-image1.jpeg');
+    background-size: cover;
+    background-position: center;
+    color:black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    flex-basis: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* styles.css */
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark gray */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker gray */
+}
